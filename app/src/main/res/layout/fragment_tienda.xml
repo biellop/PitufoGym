@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#878787"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <include layout = "@layout/toolbar_cruz"/>
+
+    <TextView
+        android:id="@+id/tienda_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="TIENDA"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/boton_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicación"
+        android:background="@drawable/fondo_redondo"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+    />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gym_equipment_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

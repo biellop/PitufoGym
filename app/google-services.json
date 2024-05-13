@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769245931604",
+    "project_id": "pitufogym-134c5",
+    "storage_bucket": "pitufogym-134c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769245931604:android:dadffdc96ff4c87b6825c1",
+        "android_client_info": {
+          "package_name": "com.example.pitufogym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769245931604-2msrdqnlqrurp59i3fdrcfcaqka1l4fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj-juEi5xGsHxuR4k7cMcSsHm3f8d50y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769245931604-2msrdqnlqrurp59i3fdrcfcaqka1l4fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
